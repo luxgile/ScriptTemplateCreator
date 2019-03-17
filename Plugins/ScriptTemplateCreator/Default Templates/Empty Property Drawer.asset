@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 470bb286e57821c47bc01dc702021f19, type: 3}
+  m_Name: Empty Property Drawer
+  m_EditorClassIdentifier: 
+  data:
+    templateName: Empty Property Drawer
+    namespaceUsage: using UnityEditor;
+    classBody: "public override void OnGUI(Rect position, SerializedProperty property,
+      GUIContent label)\r\n{\r\n\n}"
+    useNamespace: 0
+    namespaceName: 
+    useClassAtt: 1
+    classAtts: CustomPropertyDrawer(typeof(SCRIPT))
+    useInheritance: 1
+    inheritanceName: PropertyDrawer

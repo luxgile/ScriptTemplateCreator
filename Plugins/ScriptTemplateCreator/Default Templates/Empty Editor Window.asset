@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 470bb286e57821c47bc01dc702021f19, type: 3}
+  m_Name: Empty Editor Window
+  m_EditorClassIdentifier: 
+  data:
+    templateName: Empty Editor Window
+    namespaceUsage: 'using UnityEngine;
+
+
+      using UnityEditor;'
+    classBody: "[MenuItem(\"#SCRIPTNAME#\", menuItem = \"Window/#SCRIPTNAME#\")]\r\npublic
+      static void Init()\r\n{\r\n\tGetWindow<#SCRIPTNAME#>();\r\n}\n\t\r\npublic void
+      OnEnable()\r\n{\r\n\ttitleContent = new GUIContent(\"#SCRIPTNAME#\");\r\n}\r\n\t\r\nprivate
+      void OnGUI()\r\n{\r\n            \r\n}"
+    useNamespace: 0
+    namespaceName: 
+    useClassAtt: 0
+    classAtts: CustomEditor(typeof(SCRIPT))
+    useInheritance: 1
+    inheritanceName: EditorWindow

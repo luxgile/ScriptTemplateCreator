@@ -8,7 +8,7 @@ There are two modes to create templates. Default and Raw:
 - Default is more friendly and helps you to visualize better the template and possible problems it could have.
 - Raw let's you write any content you want in the template if you need more freedom.
 
-You can save the template data as ScriptableObjects in case you want to modify or save them. The package have some templates already including:
+You can save the template data as ScriptableObjects in case you want to modify or save them. The package have some templates already, including:
 - Empty Class
 - Empty Monobehaviour
 - Empty ScriptableObject
@@ -18,7 +18,7 @@ You can save the template data as ScriptableObjects in case you want to modify o
 
 You can use any of these templates to modify them and create your own.
 
-Once you have everything set just press "Create Template".
+Once you have everything set, just press "Create Template".
 
 <b>Note:</b> Unity needs to restart in order to see the new templates.
 
